@@ -123,8 +123,10 @@ At BrightBite Dental Spa, Dr. Mussa focuses on creating personalized treatment p
 							</form>
 							-->
 							<iframe width="100%" height="520px" src="https://bookit.dentrixascend.com/soe/new/dental?pid=ASC6000000001231&amp;mode=externalLink"></iframe>
-							<a href="https://bookit.dentrixascend.com/soe/new/dental?pid=ASC6000000001231&amp;mode=externalLink" target="_blank">Click here to book an appointment in a new tab</a>
-
+							<br>
+<ul class="actions stacked">
+    <li><a target="_blank" href="https://bookit.dentrixascend.com/soe/new/dental?pid=ASC6000000001231&amp;mode=externalLink" class="button big wide smooth-scroll-middle">book appointment in new tab</a></li>
+</ul>
 
 						</div>
 					</section>
@@ -164,6 +166,20 @@ At BrightBite Dental Spa, Dr. Mussa focuses on creating personalized treatment p
 }
 
 </style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Show/hide button based on scroll position
+    const returnToTopButton = document.getElementById('return-to-top');
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            returnToTopButton.style.display = 'block';
+        } else {
+            returnToTopButton.style.display = 'none';
+        }
+    });
+});
+</script>
+
 						</div>
 					</footer>
 
