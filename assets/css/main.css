@@ -3637,10 +3637,7 @@ input, select, textarea {
 		}
 
 		.banner.style1.image-position-right .image img {
-			-moz-object-position: right;
-			-webkit-object-position: right;
-			-ms-object-position: right;
-			object-position: right;
+
 		}
 
 /* Banner (style2) */
@@ -5449,10 +5446,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3.image-position-right .image img {
-			-moz-object-position: right;
-			-webkit-object-position: right;
-			-ms-object-position: right;
-			object-position: right;
+
 		}
 
 /* Spotlight (style4) */
