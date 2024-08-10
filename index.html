@@ -22,14 +22,39 @@
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body class="is-preload">
+	<style>
+	/* Define the keyframes for fading in and out */
+	@keyframes fadeInOut {
+	    0%, 100% {
+	        opacity: .6;
+	    }
+	    50% {
+	        opacity: 1;
+	    }
+	}
+
+	/* Apply the animation to the button */
+	.button.primary {
+	    animation: fadeInOut 2s infinite;
+	}
+	.button.primary:hover {
+    background-color: red; /* New color on hover */
+	}
+	</style>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
+				<center>
+					<ul class="actions stacked">
+						<br>
+						<li><a onclick="alert('Please email emergency@brightbitedentalspa.com and call the office at +1 607 291-2115 to verify appointment.');" class="button primary">Emergency?</a></li>
+					</ul>
+				</center>
 
 
 
 				<!-- One -->
-					<section class="banner style1 color8 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="top">
+					<section class="banner style1 color8 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>BrightBite Dental Spa</h1>
 							<p class="major">Brightening Smiles, One Tooth at a Time</p>
